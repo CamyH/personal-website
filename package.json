@@ -2,7 +2,7 @@
   "name": "personal-website-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://camyh.github.io/personal-website-react/",
+  "homepage": "https://camyh.github.io/personal-website/",
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
