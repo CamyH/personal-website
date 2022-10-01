@@ -12,7 +12,7 @@ function AboutMe() {
 				<img id="profile-pic" src="placeholder.png" alt="placeholder"></img>
 			</div>
 			<div id="content-wrapper">
-				<p class="about-text">
+				<p className="about-text">
 					Student Software Developer who has a keen interest in Web Technologies
 					and Software Engineering. <br />
 					Currently studying for a degree in Computing from Edinburgh Napier
@@ -26,7 +26,7 @@ function AboutMe() {
 					<img
 						src={github}
 						id="github-logo"
-						class="logo img-fluid"
+						className="logo img-fluid"
 						alt="github icon"
 					/>
 				</a>
@@ -36,7 +36,7 @@ function AboutMe() {
 					<img
 						src={linkedin}
 						id="linkedin-logo"
-						class="logo img-fluid"
+						className="logo img-fluid"
 						alt="linkedin icon"
 					/>
 				</a>
@@ -44,7 +44,7 @@ function AboutMe() {
 					<img
 						src={email}
 						id="email-logo"
-						class="logo img-fluid"
+						className="logo img-fluid"
 						alt="email icon"
 					/>
 				</a>

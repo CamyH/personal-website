@@ -17,7 +17,7 @@ function Projects() {
 						<img
 							src={f2}
 							id="project-1"
-							class="projects img-fluid"
+							className="projects img-fluid"
 							alt="f2 program"
 						/>
 					</a>
@@ -25,7 +25,7 @@ function Projects() {
 						<img
 							src={weather}
 							id="project-2"
-							class="projects img-fluid"
+							className="projects img-fluid"
 							alt="weather app"
 						/>
 					</a>
@@ -35,14 +35,14 @@ function Projects() {
 						<img
 							src={cyoag}
 							id="project-3"
-							class="projects img-fluid"
+							className="projects img-fluid"
 							alt="adventure game"
 						/>
 					</a>
 				</div>
 				<div id="github-logo-container">
 					<a href="https://github.com/CamyH" target="new">
-						<img src={github} class="logo img fluid" alt="github icon" />
+						<img src={github} className="logo img fluid" alt="github icon" />
 					</a>
 				</div>
 			</section>

@@ -12,12 +12,12 @@ function LandingPage() {
 				<h2 id="what-am-i-h2">Student / Developer</h2>
 				<div id="buttons">
 					<Link to={"/about-me"}>
-						<button id="about-me-button" class="btn btn-primary btn-lg">
+						<button id="about-me-button" className="btn btn-primary btn-lg">
 							ABOUT ME
 						</button>
 					</Link>
 					<Link to={"/projects"}>
-						<button id="project-button" class="btn btn-primary btn-lg">
+						<button id="project-button" className="btn btn-primary btn-lg">
 							PROJECTS
 						</button>
 					</Link>
@@ -25,7 +25,7 @@ function LandingPage() {
 						<a
 							href="CameronHuntCV2022.pdf"
 							id="cv-button"
-							class="btn btn-primary btn-lg"
+							className="btn btn-primary btn-lg"
 							download
 							target="_self">
 							DOWNLOAD CV
@@ -33,9 +33,9 @@ function LandingPage() {
 					</div>
 				</div>
 			</section>
-			<div class="landing-page-circle-1"></div>
-			<div class="landing-page-circle-2"></div>
-			<div class="landing-page-circle-3"></div>
+			<div className="landing-page-circle-1"></div>
+			<div className="landing-page-circle-2"></div>
+			<div className="landing-page-circle-3"></div>
 		</React.Fragment>
 	);
 }
