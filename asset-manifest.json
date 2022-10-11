@@ -1,18 +1,16 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.a0e74ade.css",
-    "main.js": "/personal-website/static/js/main.dc49eced.js",
-    "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
+    "main.js": "/personal-website/static/js/main.0f134971.js",
     "static/media/vikingr-adventure.png": "/personal-website/static/media/vikingr-adventure.4c73995fecae788609f8.png",
     "static/media/weather-app.png": "/personal-website/static/media/weather-app.ffb406216a170b6714f5.png",
     "static/media/f2-program.png": "/personal-website/static/media/f2-program.ddadd27b72dcff5f6946.png",
     "index.html": "/personal-website/index.html",
     "main.a0e74ade.css.map": "/personal-website/static/css/main.a0e74ade.css.map",
-    "main.dc49eced.js.map": "/personal-website/static/js/main.dc49eced.js.map",
-    "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
+    "main.0f134971.js.map": "/personal-website/static/js/main.0f134971.js.map"
   },
   "entrypoints": [
     "static/css/main.a0e74ade.css",
-    "static/js/main.dc49eced.js"
+    "static/js/main.0f134971.js"
   ]
 }
