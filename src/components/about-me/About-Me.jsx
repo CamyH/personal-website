@@ -19,6 +19,8 @@ function AboutMe() {
 					University. <br />
 					<br />
 					Open to any internship or job opportunities, please get in touch!
+					<br />
+					Languages I am currently learning:
 				</p>
 			</div>
 			<div id="socials-container">
