@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router'
 // Pages
 import { Home } from '../pages/index'
 
-const Router = () => {
+const RouteController = () => {
     return (
         <Routes>
             <Route path='/' element={<Home />} />
@@ -12,4 +12,4 @@ const Router = () => {
     )
 }
 
-export default Router
+export default RouteController
