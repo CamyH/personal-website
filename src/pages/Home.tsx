@@ -1,5 +1,5 @@
 // Organisms
-import { ComingSoon } from '../components/organisms/placeholder'
+import { ComingSoon } from '../components/organisms/index'
 
 export const Home = () => {
     return <ComingSoon />
