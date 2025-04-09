@@ -1,5 +1,9 @@
+@use '../main.scss' as main;
+
 .heading {
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: main.$slate-50;
+    text-align: center;
 }
