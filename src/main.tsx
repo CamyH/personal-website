@@ -1,7 +1,7 @@
 // Hooks
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter } from 'react-router'
+import { HashRouter as Router } from 'react-router'
 
 // Utils
 import RouteController from './@utils/RouteController'
@@ -11,8 +11,8 @@ import '../src/styles/main.scss'
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
-        <BrowserRouter>
+        <Router>
             <RouteController />
-        </BrowserRouter>
+        </Router>
     </StrictMode>
 )
