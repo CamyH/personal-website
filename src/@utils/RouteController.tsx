@@ -2,12 +2,12 @@
 import { Route, Routes } from 'react-router'
 
 // Pages
-import { Home } from '../pages/index'
+import { WorkInProgress } from '../pages/index'
 
 const RouteController = () => {
     return (
         <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/' element={<WorkInProgress />} />
         </Routes>
     )
 }
