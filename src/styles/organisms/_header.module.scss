@@ -1,0 +1,10 @@
+@use '../main.scss' as main;
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: main.$slate-900;
+    padding: 2%;
+}
