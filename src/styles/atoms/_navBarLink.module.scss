@@ -6,4 +6,9 @@
     letter-spacing: 0.3px;
     color: main.$slate-50;
     cursor: pointer;
+    text-transform: uppercase;
+}
+
+.link:hover {
+    color: main.$slate-400;
 }
