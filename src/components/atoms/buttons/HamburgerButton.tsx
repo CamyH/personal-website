@@ -10,14 +10,16 @@ type HamburgerButtonPropType = {
 
 export const HamburgerButton = ({ onClick }: HamburgerButtonPropType) => {
     return (
-        <button
-            className={styles.hamburger}
-            aria-label='Toggle Navbar'
-            type='button'
-            onClick={onClick}
-        >
-            <SquareMenu />
-        </button>
+        <span className={styles.hamburgerContainer}>
+            <button
+                className={styles.hamburger}
+                aria-label='Toggle Navbar'
+                type='button'
+                onClick={onClick}
+            >
+                <SquareMenu strokeWidth={1.5} size={48} />
+            </button>
+        </span>
     )
 }
 

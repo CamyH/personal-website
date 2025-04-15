@@ -1,3 +1,15 @@
+@use '../main.scss' as main;
+
+.hamburgerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
 .hamburger {
     cursor: pointer;
+    background-color: main.$slate-900;
+    color: main.$slate-50;
+    border: none;
 }
