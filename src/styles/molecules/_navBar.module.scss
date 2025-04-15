@@ -9,3 +9,19 @@
     gap: 20px;
     margin-left: auto;
 }
+
+.navbarMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    background-color: main.$slate-900;
+}
+
+.showNavBar {
+    visibility: visible;
+}
+
+.hideNavBar {
+    visibility: hidden;
+}
