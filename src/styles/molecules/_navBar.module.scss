@@ -1,5 +1,8 @@
 @use '../main.scss' as main;
 
+// Vars
+$fadeInDelay: 0.1s;
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -15,13 +18,17 @@
     flex-direction: column;
     align-items: center;
     padding: 2%;
+    opacity: 0;
     background-color: main.$slate-900;
+    transition: opacity $fadeInDelay ease-in;
 }
 
 .showNavBar {
     visibility: visible;
+    opacity: 1;
 }
 
 .hideNavBar {
     visibility: hidden;
+    transition: all $fadeInDelay ease-out;
 }

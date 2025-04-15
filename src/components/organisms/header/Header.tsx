@@ -26,7 +26,10 @@ export const Header = () => {
                     children={'Cameron Hunt'}
                 />
                 {isMobile ? (
-                    <HamburgerButton onClick={handleOpenMobileNavigation} />
+                    <HamburgerButton
+                        onClick={handleOpenMobileNavigation}
+                        isOpen={isOpen}
+                    />
                 ) : (
                     <NavBar isMobile={isMobile} isOpen={isOpen}>
                         <NavBarLink linkText={'about'} path={''} />

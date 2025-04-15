@@ -7,9 +7,10 @@
     flex-grow: 1;
 }
 
-.hamburger {
+.hamburgerButton {
     cursor: pointer;
     background-color: main.$slate-900;
     color: main.$slate-50;
     border: none;
+    transition: all 1s ease-in-out;
 }
